@@ -348,5 +348,10 @@ Velleius Paterculus, Historiae Romanae
 Vitruvius, De architectura
 
 
+DATA PREPROCESSING
+Texts were cleared of punctuation because. When running classifications with SVM, the texts were also lower cased and all one-character long tokens were removed. 
+
+DATA FORMATS
+gzip, json
 
 
