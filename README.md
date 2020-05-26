@@ -354,4 +354,6 @@ Texts were cleared of punctuation because. When running classifications with SVM
 DATA FORMATS
 gzip, json
 
+Related code: https://github.com/avjves/AuthAttHelper
+
 
