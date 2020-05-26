@@ -347,6 +347,8 @@ Velleius Paterculus, Historiae Romanae
 
 Vitruvius, De architectura
 
+The Latin texts have been collected from public domain sources, mostly from The Latin Library (http://www.thelatinlibrary.com;), partly Bibliotheca Augustana (https://www.hs-augsburg.de/~harsch/a_chron.html).
+
 
 DATA PREPROCESSING
 Texts were cleared of punctuation because. When running classifications with SVM, the texts were also lower cased and all one-character long tokens were removed. 
