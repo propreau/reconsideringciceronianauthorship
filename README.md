@@ -353,8 +353,11 @@ The Latin texts have been collected from public domain sources, mostly from The 
 DATA PREPROCESSING
 Texts were cleared of punctuation because. When running classifications with SVM, the texts were also lower cased and all one-character long tokens were removed. 
 
-DATA FORMATS
-gzip, json
+DATA FORMAT
+The data is shared as a single JSON file, compressed inside a gzipped tar file. 
+The JSON file contains a nested dictionary, which groups all works per author.
+The texts themselves are fully parsed and distributed in CoNLL-U format. (https://universaldependencies.org/format.html).
+That is, every line corresponds to a single word in the original text and contains the parsed information for it (form, pos-tag, morphological features etc.).
 
 Related code: https://github.com/avjves/AuthAttHelper
 
